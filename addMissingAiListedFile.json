@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "addMissingAiListedFile",
+  "description": "Configuration for auto-adding missing AI-listed files in the monorepo",
+  "projectRoot": ".",
+  "files": [
+    {
+      "path": "frontend/pages/_app.tsx",
+      "templatePath": "templates/frontend/pages/_app.tsx"
+    },
+    {
+      "path": "frontend/pages/index.tsx",
+      "templatePath": "templates/frontend/pages/index.tsx"
+    },
+    {
+      "path": "frontend/pages/dashboard.tsx",
+      "templatePath": "templates/frontend/pages/dashboard.tsx"
+    },
+    {
+      "path": "frontend/pages/analytics.tsx",
+      "templatePath": "templates/frontend/pages/analytics.tsx"
+    },
+    {
+      "path": "frontend/pages/settings.tsx",
+      "templatePath": "templates/frontend/pages/settings.tsx"
+    },
+    {
+      "path": "extension/src/background.ts",
+      "templatePath": "templates/extension/src/background.ts"
+    },
+    {
+      "path": "extension/src/contentScript.ts",
+      "templatePath": "templates/extension/src/contentScript.ts"
+    },
+    {
+      "path": "extension/src/popup.tsx",
+      "templatePath": "templates/extension/src/popup.tsx"
+    },
+    {
+      "path": "extension/src/manifest.json",
+      "templatePath": "templates/extension/src/manifest.json"
+    },
+    {
+      "path": "workers/workerBootstrap.ts",
+      "templatePath": "templates/workers/workerBootstrap.ts"
+    },
+    {
+      "path": "workers/feedbackloopservice.ts",
+      "templatePath": "templates/workers/feedbackloopservice.ts"
+    },
+    {
+      "path": "infra/ci/github-actions.yml",
+      "templatePath": "templates/infra/ci/github-actions.yml"
+    },
+    {
+      "path": "infra/terraform/main.tf",
+      "templatePath": "templates/infra/terraform/main.tf"
+    },
+    {
+      "path": "infra/terraform/variables.tf",
+      "templatePath": "templates/infra/terraform/variables.tf"
+    },
+    {
+      "path": "infra/terraform/outputs.tf",
+      "templatePath": "templates/infra/terraform/outputs.tf"
+    }
+  ]
+}
